@@ -16,7 +16,7 @@ class Command(BaseCommand):
             password = getpass("Enter the password: ")
             try:
                 user = User.objects.get(username=username)
-                print "wrong password"
+                print "User already exists"
             except User.DoesNotExist:
                 user = User.objects.create_user(username=username,password=password)
                 user.save()
