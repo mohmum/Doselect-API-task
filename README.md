@@ -1,5 +1,5 @@
 **Project Title**<br/>
-Doselect task API to store images locally with POST, GET, PATCH, DELETE methods.
+Image Management API to store images locally with POST, GET, PATCH, DELETE methods.
 
 ***
 
